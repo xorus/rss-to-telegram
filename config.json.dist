@@ -1,0 +1,11 @@
+{
+  "published_database": "published-posts.json",
+  "source": {
+    "feed": "",
+    "refresh_interval": 12000
+  },
+  "telegram": {
+    "token": "",
+    "channel":
+  }
+}
