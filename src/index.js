@@ -48,3 +48,7 @@ const fetchFeed = function () {
 
 setInterval(fetchFeed, config.source.refresh_interval);
 fetchFeed();
+
+if (config.status_monitor_port !== null) {
+    require('./monitor').start(config.status_monitor_port);
+}

@@ -7,5 +7,6 @@
   "telegram": {
     "token": "",
     "channel":
-  }
+  },
+  "status_monitor_port": null
 }

@@ -30,6 +30,9 @@ Create a config.json file containing:
 
 - `channel`: Telegram chat id (must be an integer API id)
 
+- `status_monitor_port`: If set, will open a simple webserver that always responds 200 on that port.
+   This can be used as a way to determine if this service is still running via e.g. uptime robot.
+
 ## Run
 
 1. `npm install`
